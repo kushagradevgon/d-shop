@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "d-shop-8c687": {
+      "hosting": {
+        "d-shop": [
+          "d-shop-8c687"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "d-shop-8c687"
+  }
+}

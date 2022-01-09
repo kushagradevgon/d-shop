@@ -1,0 +1,10 @@
+
+<div class="card">
+    <img class="card-img-top" src="{{childitem.image}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{childitem.title}}</h5>
+      <p class="card-text">{{childitem.price}} </p>
+    </div>
+    <button type="button" class="btn btn-secondary" (click)="passData(childitem)" routerLink="/productdetail">Watch More!!</button>
+    
+  </div>
